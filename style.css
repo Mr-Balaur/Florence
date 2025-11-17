@@ -1,0 +1,63 @@
+h1, .section-title{
+    font-family: 'Great Vibes', cursive;
+    color: #fff;
+}
+
+.nav-item, body{
+    font-family: 'Urbanist', sans-serif;
+}
+.text-colored{
+    font-family: 'Urbanist', sans-serif;
+    color: rgb(255, 77, 133);
+}
+
+.btn{
+    font-family: 'Urbanist', sans-serif;
+    color: #fff;
+    background-color: rgb(255, 77, 133);
+}
+#cabecalho, .navbar-brand{
+    color: #fff;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #000;
+}
+li{
+    list-style: none;
+}
+
+header{
+    background-color: rgb(255, 77, 133);
+}
+
+#destaques, .footer{
+    background-color: black;
+}
+
+#destaques p{
+    color: #fff;
+}
+
+#sobre{
+    background-color: rgb(255, 77, 133);
+    color: #fff;
+}
+
+.footer{
+    color: #fff;
+}
+
+.footer li a:hover{
+    color: rgb(255, 77, 133);
+}
+
+.social-links li a{
+    list-style: none;
+    color: #fff;
+    float: inline-start;
+}

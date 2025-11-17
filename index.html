@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Florence cosméticos</title>
+    <link rel="icon" type="image/png" sizes="24x24" href="images/marca/icone.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top py-1 pt-3" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand fs-1 m-0 fw-bold">Florence</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="navegacao">
+                <ul class="d-block d-md-flex nav-underline">
+                    <li class="nav-item mx-2"><a class="nav-link fw-bold" href="#destaques">Destaques</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link fw-bold" href="#produtos">Produtos</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link fw-bold" href="#sobre">A Florence</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link fw-bold" href="#">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-scroll-smooth="true">
+            <section id="destaques">
+        <div class="carousel-slide" data-bs-ride="carousel" id="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img class="w-100" src="images/marca/slide1.jpg" alt="maquiagem">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="w-100" src="images/marca/slide2.jpg" alt="produtos de beleza">
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="w-100" src="images/marca/slide3.jpg" alt="batons">
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <div class="container pb-5">
+            <h2 class="text-colored py-5 fw-bold">Destaques</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="w-100" src="images/perfumes/perfume1.jpg" alt="Perfume">
+                    <h4 class="title text-colored py-2">Perfume</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="price text-colored">
+                        <del>R$249,90</del>
+                        <strong class="fs-3">R$209,90</strong>
+                    </div>
+                    <button class="btn" type="button">Comprar</button>
+                </li>
+                </div>
+                <div class="col-md-3">
+                    <img class="w-100" src="images/hidratantes/creme.jpg" alt="Creme">
+                    <h4 class="title text-colored py-2">Creme hidratante</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="price text-colored">
+                        <del>R$75,00</del>
+                        <strong class="fs-3">R$69,90</strong>
+                    </div>
+                    <button class="btn" type="button">Comprar</button>
+                </div>
+                <div class="col-md-3">
+                    <img class="w-100" src="images/perfumes/perfume2.jpg" alt="Perfume 2">
+                    <h4 class="title text-colored py-2">Perfume 2</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="price text-colored">
+                        <del>R$299,90</del>
+                        <strong class="fs-3">R$269,90</strong>
+                    </div>
+                    <button class="btn" type="button">Comprar</button>
+                </div>
+                <div class="col-md-3">
+                    <img class="w-100" src="images/hidratantes/sabao.jpg" alt="sabonete">
+                    <h4 class="title text-colored py-2">Sabonete</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <div class="price text-colored">
+                        <del>R$109,99</del>
+                        <strong class="fs-3">R$89,90</strong>
+                    </div>
+                    <button class="btn" type="button">Comprar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="produtos">
+        <div class="container pb-5">
+            <h2 class="text-colored py-5 fw-bold">Produtos</h2>
+            <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-underline flex-column nav-produtos">
+                            <button data-bs-toggle="tab" data-bs-target="#maquiagem" class="fw-bold text-start nav-link text-colored active"  type="button">Maquiagem</button>
+                            <button data-bs-toggle="tab" data-bs-target="#perfumes" class="fw-bold text-start nav-link text-colored" type="button">Perfumes</button>
+                            <button data-bs-toggle="tab" data-bs-target="#hidratantes" class="fw-bold text-start nav-link text-colored" type="button">Hidratantes</button>
+                            <button data-bs-toggle="tab" data-bs-target="#cabelos" class="fw-bold text-start nav-link text-colored" type="button">Linha para cabelos</button>
+                            <button data-bs-toggle="tab" data-bs-target="#acessorios" class="fw-bold text-start nav-link text-colored" type="button">Acessórios</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="maquiagem">
+                                <div class="row">
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/maquiagem/maquiagem.jpg" class="d-block w-100" alt="Maquiagem">
+                                        <h5 class="text-colored fw-bold pt-2">Maquiagem 1</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$99,99</del>
+                                            <strong class="fs-4">R$79,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/maquiagem/maquiagem2.jpg" class="d-block w-100" alt="Maquiagem">
+                                        <h5 class="text-colored fw-bold pt-2">Maquiagem 2</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$109,99</del>
+                                            <strong class="fs-4">R$89,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/maquiagem/maquiagem3.jpg" class="d-block w-100" alt="Maquiagem">
+                                        <h5 class="text-colored fw-bold pt-2">Maquiagem 3</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$104,90</del>
+                                            <strong class="fs-4">R$75,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/maquiagem/maquiagem4.jpg" class="d-block w-100" alt="Maquiagem">
+                                        <h5 class="text-colored fw-bold pt-2">Maquiagem 4</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$94,90</del>
+                                            <strong class="fs-4">R$69,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/maquiagem/maquiagem.jpg" class="d-block w-100" alt="Maquiagem">
+                                        <h5 class="text-colored fw-bold pt-2">Maquiagem 1</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$99,99</del>
+                                            <strong class="fs-4">R$79,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/maquiagem/maquiagem2.jpg" class="d-block w-100" alt="Maquiagem">
+                                        <h5 class="text-colored fw-bold pt-2">Maquiagem 2</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$109,99</del>
+                                            <strong class="fs-4">R$89,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/maquiagem/maquiagem3.jpg" class="d-block w-100" alt="Maquiagem">
+                                        <h5 class="text-colored fw-bold pt-2">Maquiagem 3</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$104,90</del>
+                                            <strong class="fs-4">R$75,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/maquiagem/maquiagem4.jpg" class="d-block w-100" alt="Maquiagem">
+                                        <h5 class="text-colored fw-bold pt-2">Maquiagem 4</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$94,90</del>
+                                            <strong class="fs-4">R$69,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="perfumes">
+                                <div class="row">
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/perfumes/perfume1.jpg" class="d-block w-100" alt="Perfume">
+                                        <h5 class="text-colored fw-bold pt-2">Perfume 1</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$249,90</del>
+                                            <strong class="fs-4">R$209,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/perfumes/perfume2.jpg" class="d-block w-100" alt="Perfume">
+                                        <h5 class="text-colored fw-bold pt-2">Perfume 2</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$299,90</del>
+                                            <strong class="fs-4">R$269,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/perfumes/perfume3.jpg" class="d-block w-100" alt="Perfume">
+                                        <h5 class="text-colored fw-bold pt-2">Perfume 3</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$349,99</del>
+                                            <strong class="fs-4">R$299,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/perfumes/perfume4.jpg" class="d-block w-100" alt="Perfume">
+                                        <h5 class="text-colored fw-bold pt-2">Perfume 4</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$249,99</del>
+                                            <strong class="fs-4">R$229,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/perfumes/perfume1.jpg" class="d-block w-100" alt="Perfume">
+                                        <h5 class="text-colored fw-bold pt-2">Perfume 1</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$249,90</del>
+                                            <strong class="fs-4">R$209,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/perfumes/perfume2.jpg" class="d-block w-100" alt="Perfume">
+                                        <h5 class="text-colored fw-bold pt-2">Perfume 2</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$299,90</del>
+                                            <strong class="fs-4">R$269,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/perfumes/perfume3.jpg" class="d-block w-100" alt="Perfume">
+                                        <h5 class="text-colored fw-bold pt-2">Perfume 3</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$349,99</del>
+                                            <strong class="fs-4">R$299,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/perfumes/perfume4.jpg" class="d-block w-100" alt="Perfume">
+                                        <h5 class="text-colored fw-bold pt-2">Perfume 4</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$249,99</del>
+                                            <strong class="fs-4">R$229,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="hidratantes">
+                                <div class="row">
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/hidratantes/creme.jpg" class="d-block w-100" alt="Hidratante">
+                                        <h5 class="text-colored fw-bold pt-2">Hidratante</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$75,00</del>
+                                            <strong class="fs-4">R$69,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/hidratantes/creme2.jpg" class="d-block w-100" alt="Hidratante">
+                                        <h5 class="text-colored fw-bold pt-2">Hidratante</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$75,00</del>
+                                            <strong class="fs-4">R$69,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/hidratantes/creme3.jpg" class="d-block w-100" alt="Hidratante">
+                                        <h5 class="text-colored fw-bold pt-2">Hidratante</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$75,00</del>
+                                            <strong class="fs-4">R$69,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/hidratantes/sabao.jpg" class="d-block w-100" alt="Hidratante">
+                                        <h5 class="text-colored fw-bold pt-2">Sabonete</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$45,00</del>
+                                            <strong class="fs-4">R$39,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="cabelos">
+                                <div class="row">
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/cabelos/shampoo.jpg" class="d-block w-100" alt="shampoo">
+                                        <h5 class="text-colored fw-bold pt-2">Shampoo</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$85,00</del>
+                                            <strong class="fs-4">R$62,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/cabelos/shampoo.jpg" class="d-block w-100" alt="shampoo">
+                                        <h5 class="text-colored fw-bold pt-2">Shampoo</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$85,00</del>
+                                            <strong class="fs-4">R$62,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="acessorios">
+                                <div class="row">
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/acessorios/acessorio1.jpg" class="d-block w-100" alt="acessorios">
+                                        <h5 class="text-colored fw-bold pt-2">Acessorio 1</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$30,00</del>
+                                            <strong class="fs-4">R$18,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/acessorios/acessorio2.jpg" class="d-block w-100" alt="acessorios">
+                                        <h5 class="text-colored fw-bold pt-2">Acessorio 2</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$50,00</del>
+                                            <strong class="fs-4">R$42,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                    <div class="col-md-3 pb-3">
+                                        <img src="images/acessorios/acessorio3.jpg" class="d-block w-100" alt="acessorios">
+                                        <h5 class="text-colored fw-bold pt-2">Acessorio 3</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                        <div class="price text-colored">
+                                            <del>R$10,00</del>
+                                            <strong class="fs-4">R$7,90</strong>
+                                        </div>
+                                        <button class="btn" type="button">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <section id="sobre">
+        <div class="container pb-5">
+            <h2 class="fs-1 py-5 fw-bold">10 anos de um sonho!</h2>
+             <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/marca/fachada.jpeg" class="d-block w-100 rounded" alt="Foto da loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h3 class="section-title fw-bold fs-2">O primeiro passo...</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore ut soluta aliquam ipsum magni. Odio temporibus ut delectus, nam non voluptatum est facilis, nisi numquam, quos illum officia et. Iusto!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae similique error totam quo nesciunt laudantium necessitatibus nulla dignissimos alias aliquam quaerat consequatur, mollitia qui ea inventore fugiat, magni laborum.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore ut soluta aliquam ipsum magni. Odio temporibus ut delectus, nam non voluptatum est facilis, nisi numquam, quos illum officia et. Iusto!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur molestiae similique error totam quo nesciunt laudantium necessitatibus nulla dignissimos alias aliquam quaerat consequatur, mollitia qui ea inventore fugiat, magni laborum.</p>
+
+        </div>
+    </section>
+    <footer class="footer pt-4">
+        <div class="container">
+            <h3 class="h3 pb-3 text-center">Precisa de ajuda? Acesse os links abaixo:</h3>
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="flex-column nav-underline">
+                    <li class="nav-item mx-2"><a class="nav-link fw-bold" href="#">Central de Atendimento</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link fw-bold" href="#">Nossos Parceiros</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link fw-bold" href="#">Trabalhe Conosco</a></li>
+                </ul>
+                </div>
+                <div class="col-md-5">
+                    <ul class="flex-column nav-underline">
+                    <li class="nav-item mx-2"><a class="nav-link fw-bold" href="#">Jurídico</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link fw-bold" href="#">A Florence foundation</a></li>
+                    <li class="nav-item mx-2"><a class="nav-link fw-bold" href="#">Somos pet friendly</a></li>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="h5 ps-2">Nossas redes:</h5>
+                        <ul class="social-links d-block">
+                            <li class="fs-1">
+                                <a href="#"><i class="bi bi-facebook"></i></a>
+                            </li>
+                            <li class="fs-1">
+                                <a href="#"><i class="bi bi-instagram px-3"></i></a>
+                            </li>
+                            <li class="fs-1">
+                                <a href="#"><i class="bi bi-whatsapp"></i></a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center text-light pt-3">
+                    <p>&copy; Todos os direitos reservados. Site criado para fins academicos. Desenvolvido por <a class="link-light fw-bold" href="https://github.com/Mr-Balaur"><strong>Mr-Balaur</strong></a>.</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
